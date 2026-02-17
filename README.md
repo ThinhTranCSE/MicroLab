@@ -25,14 +25,16 @@ This project is not just about writing APIs — it is about building systems wit
 
 MicroLab follows a microservices-based architecture with the following components:
 
+```
 Client
-↓
+   ↓
 API Gateway
-↓
+   ↓
 Business Services
-├── User Service
-├── Order Service
-└── Payment Service
+   ├── User Service
+   ├── Order Service
+   └── Payment Service
+```
 
 
 ### 🔹 API Gateway
@@ -45,11 +47,14 @@ Business Services
 ### 🔹 Business Services
 Each service is independently developed and follows Clean Architecture principles:
 
+```
 ServiceName
-├── Domain
-├── Application
-├── Infrastructure
-└── Presentation
+   ├── Domain
+   ├── Application
+   ├── Infrastructure
+   └── Presentation
+```
+
 
 
 Each service:
