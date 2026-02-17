@@ -30,6 +30,8 @@ Client
    ↓
 API Gateway
    ↓
+AuthService
+   ↓
 Business Services
    ├── User Service
    ├── Order Service
