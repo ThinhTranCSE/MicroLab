@@ -145,5 +145,14 @@ MicroLab exists to build that understanding.
 
 Built as a learning initiative to deepen knowledge in distributed systems and modern backend architecture.
 
+<p>
+  <a href="https://github.com/ChinhLuCSE">
+    <img src="https://github.com/ChinhLuCSE.png" width="80px;" />
+  </a>
+  <a href="https://github.com/ThinhTranCSE">
+    <img src="https://github.com/ThinhTranCSE.png" width="80px;" />
+  </a>
+</p>
+
 ---
 
