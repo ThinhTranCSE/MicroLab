@@ -1,9 +1,5 @@
 <Solution>
-  <Folder Name="/src/" />
-  <Folder Name="/src/Gateway/">
-    <Project Path="src/Gateway/Gateway.Application/Gateway.Application.csproj" Id="8f14023e-6bea-4cc2-9ba1-7a8c6a11cd35" />
-    <Project Path="src/Gateway/Gateway.Domain/Gateway.Domain.csproj" Id="144fb3ce-1ed3-4ac2-9014-870f2aa5ffae" />
-    <Project Path="src/Gateway/Gateway.Infrastructure/Gateway.Infrastructure.csproj" Id="f23aca06-c642-4e96-96c6-7c025d71b947" />
-    <Project Path="src/Gateway/Gateway.Presentation/Gateway.Presentation.csproj" Id="f8fd7dba-b104-4b5d-964b-195be81e305b" />
+  <Folder Name="/src/">
+    <Project Path="src/MicroLab.Gateway/MicroLab.Gateway.csproj" />
   </Folder>
 </Solution>
