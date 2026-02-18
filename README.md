@@ -1,8 +1,8 @@
 # MicroLab 🚀
 
-MicroLab is a hands-on learning project focused on building and understanding modern **Microservices Architecture** using **ASP.NET Core** and **.NET 8**.
+MicroLab is a hands-on learning project focused on building and understanding modern **Microservices Architecture** using **ASP.NET Core** and **.NET 10**.
 
-This repository is designed as a practical lab environment where we explore architectural patterns, clean code principles, and production-ready service design.
+This repository is designed as a practical lab environment where we clone Discord, explore architectural patterns, clean code principles, and production-ready service design.
 
 ---
 
@@ -34,8 +34,8 @@ AuthService
    ↓
 Business Services
    ├── User Service
-   ├── Order Service
-   └── Payment Service
+   ├── 
+   └── 
 ```
 
 
@@ -88,7 +88,7 @@ Each service:
 
 ## 🛠 Tech Stack
 
-- .NET 8
+- .NET 10
 - ASP.NET Core Web API
 - YARP (API Gateway)
 - Clean Architecture
