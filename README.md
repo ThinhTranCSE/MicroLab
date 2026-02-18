@@ -34,8 +34,8 @@ AuthService
    ↓
 Business Services
    ├── User Service
-   ├── Order Service
-   └── Payment Service
+   ├── 
+   └── 
 ```
 
 
@@ -88,7 +88,7 @@ Each service:
 
 ## 🛠 Tech Stack
 
-- .NET 8
+- .NET 10
 - ASP.NET Core Web API
 - YARP (API Gateway)
 - Clean Architecture
