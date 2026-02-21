@@ -6,4 +6,16 @@
     <Project Path="src/Gateway/Gateway.Infrastructure/Gateway.Infrastructure.csproj" Id="f23aca06-c642-4e96-96c6-7c025d71b947" />
     <Project Path="src/Gateway/Gateway.Presentation/Gateway.Presentation.csproj" Id="f8fd7dba-b104-4b5d-964b-195be81e305b" />
   </Folder>
+  <Folder Name="/src/TemplateService/">
+    <Project Path="src/TemplateService/src/TemplateService.AspireHost/TemplateService.AspireHost.csproj" />
+    <Project Path="src/TemplateService/src/TemplateService.Core/TemplateService.Core.csproj" />
+    <Project Path="src/TemplateService/src/TemplateService.Infrastructure/TemplateService.Infrastructure.csproj" />
+    <Project Path="src/TemplateService/src/TemplateService.ServiceDefaults/TemplateService.ServiceDefaults.csproj" />
+    <Project Path="src/TemplateService/src/TemplateService.UseCases/TemplateService.UseCases.csproj" />
+    <Project Path="src/TemplateService/src/TemplateService.Web/TemplateService.Web.csproj" />
+    <Project Path="src/TemplateService/tests/TemplateService.AspireTests/TemplateService.AspireTests.csproj" />
+    <Project Path="src/TemplateService/tests/TemplateService.FunctionalTests/TemplateService.FunctionalTests.csproj" />
+    <Project Path="src/TemplateService/tests/TemplateService.IntegrationTests/TemplateService.IntegrationTests.csproj" />
+    <Project Path="src/TemplateService/tests/TemplateService.UnitTests/TemplateService.UnitTests.csproj" />
+  </Folder>
 </Solution>

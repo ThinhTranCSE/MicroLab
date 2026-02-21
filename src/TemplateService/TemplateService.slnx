@@ -1,0 +1,33 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".template.config/template.json" />
+    <File Path="CleanArchitecture.nuspec" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/TemplateService.Core/TemplateService.Core.csproj" />
+    <Project Path="src/TemplateService.Infrastructure/TemplateService.Infrastructure.csproj" />
+    <Project Path="src/TemplateService.UseCases/TemplateService.UseCases.csproj" />
+    <Project Path="src/TemplateService.Web/TemplateService.Web.csproj" />
+  </Folder>
+  <Folder Name="/src/_aspire/">
+    <Project Path="src/TemplateService.AspireHost/TemplateService.AspireHost.csproj" />
+    <Project Path="src/TemplateService.ServiceDefaults/TemplateService.ServiceDefaults.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/TemplateService.FunctionalTests/TemplateService.FunctionalTests.csproj">
+      <BuildDependency Project="src/TemplateService.Web/TemplateService.Web.csproj" />
+    </Project>
+    <Project Path="tests/TemplateService.IntegrationTests/TemplateService.IntegrationTests.csproj">
+      <BuildDependency Project="src/TemplateService.Infrastructure/TemplateService.Infrastructure.csproj" />
+    </Project>
+    <Project Path="tests/TemplateService.UnitTests/TemplateService.UnitTests.csproj" />
+  </Folder>
+</Solution>
